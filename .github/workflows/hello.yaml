@@ -11,13 +11,13 @@ on: push
       steps:
         - name: Good-bye
           run: |
-            echo "Goodbye world"
-            whoami
-            hostname
-            java -version
-            python -V
-            python3 --version
-            which jq
-            jq --version
-            pwd
-            date
+              echo "Goodbye world"
+              whoami
+              hostname
+              java -version
+              python -V
+              python3 --version
+              which jq
+              jq --version
+              pwd
+              date
