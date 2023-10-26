@@ -6,3 +6,10 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+  good-bye:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Good-bye
+        run: |
+        whoami
+        hostname
