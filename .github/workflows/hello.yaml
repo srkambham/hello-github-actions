@@ -1,8 +1,10 @@
 name: Hello world workflow
 
 on:
-  push: main
-  pull: main
+  push: 
+  -branches: main
+  pull: 
+  -brances: main
   workflow_dispatch:
 
 jobs:
