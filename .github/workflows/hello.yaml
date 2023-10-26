@@ -6,18 +6,18 @@ on: push
 #     steps:
 #       - name: my-step
 #         run: echo "Hello World!"
-  good-bye:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Good-bye
-        run: |
-          echo "Goodbye world"
-          whoami
-          hostname
-          java -version
-          python -V
-          python3 --version
-          which jq
-          jq --version
-          pwd
-          date
+    good-bye:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Good-bye
+          run: |
+            echo "Goodbye world"
+            whoami
+            hostname
+            java -version
+            python -V
+            python3 --version
+            which jq
+            jq --version
+            pwd
+            date
