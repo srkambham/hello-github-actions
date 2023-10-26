@@ -9,15 +9,15 @@ on: push
   good-bye:
     runs-on: ubuntu-latest
     steps:
-          - name: Good-bye
-            run: |
-              echo "Goodbye world"
-              whoami
-              hostname
-              java -version
-              python -V
-              python3 --version
-              which jq
-              jq --version
-              pwd
-              date
+      - name: Good-bye
+        run: |
+          echo "Goodbye world"
+          whoami
+          hostname
+          java -version
+          python -V
+          python3 --version
+          which jq
+          jq --version
+          pwd
+          date
