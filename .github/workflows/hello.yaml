@@ -15,5 +15,9 @@ jobs:
           whoami
           hostname
           java -version
-          which python
+          python -V
+          python3 --version
           which jq
+          jq --version
+          pwd
+          date
